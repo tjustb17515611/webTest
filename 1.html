@@ -5,51 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>网站设计</title>
     <style>
-        header{
-            background-color: deepskyblue;
-            clear: both;
-            height: 50px;
-        }
-        div#left{
-            background-color:lightblue;
-            width: 20%;
-            float: left;
-        }
-        div#main{
-            background-color:#ffffff;
-            width: 60%;
-            float: left;
-        }
-        div#right{
-            background-color:lightblue;
-            width:20%;
-            float: left;
-        }
-        div#footer{
-            background-color:deepskyblue;
-            clear: both;
-        }
+    .top{
+        background: url(/img/tx.jpg );
+        height: 500px;
+    }
+    .t1{
+        width: 100%;
+    }
+    .n1{
+        background-color:lightblue;
+        width: 15%;
+        height: 400px;
+        float: left;
+    }
+    .n2{
+        background-color:#ffffff;
+        width: 35%;
+        height:400px;
+        float: left;
+    }
+    .n3{
+        background-color: gold;
+        width: 25%;
+        height: 400px;
+        float: left;
+    }
+    .n4{
+        background-color:lightblue;
+        width:25%;
+        height: 400px;
+        float: left;
+    }
+    .middle{
+        background-color:mediumturquoise;
+        clear: both;
+        height: 300px;
+    }
+    .leg{
+        background-color: mediumvioletred;
+        clear: both;
+        height: 300px;
+    }
+    .t2{
+        width: 100%;
+    
+    }
+    .footer{
+        background-color:deepskyblue;
+        clear: both;
+        height: 100px;
+    }
     </style>
 </head>
 <body>
-    <header>
-        xxx
-    </header>
-    <div id="left">b</div>
-    <div id="main">
-        <video controls src="" width="100%" height="100" ></video>
+    <div id="content">
+        <div class="top">
+            <table class="t1">
+                <tr>
+                    <td>
+                        <img src="/img/100.png">
+                    </td>
+                    <td>
+                        <nav>
+                            <a href="#">课程表</a>
+                            <a href="#">产品介绍</a>
+                            <a href="#">思维导图</a>
+                            <a href="#">店内详情</a>
+                            <a href="#">联系我们</a>
+                        </nav>
+                    </td>
+                </tr>
+            </table>
+            <img src="/img/301n.png">
+        </div>
+        <div class="n1">b</div>
+        <div class="n2">
+            <video controls src="" width="100%" height="100%" ></video>
+        </div>
+        <div class="n3">b</div>
+        <div class="n4">c</div>
+        <div class="middle">d</div>
+        <div class="leg">
+            <table class="t2">
+                <tr>
+                    <td><a href="#"><img src="/img/301n.png"></a></td>
+                    <td><a href="#"><img src="/img/301n.png"></a></td>
+                    <td><a href="#"><img src="/img/301n.png"></a></td>
+                    <td><a href="#"><img src="/img/301n.png"></a></td>
+                    <td><a href="#"><img src="/img/301n.png"></a></td>
+                </tr>
+                <tr>
+                    <center>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;xxx</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;xxx</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;xxx</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;xxx</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;xxx</td>
+                    </center>
+                </tr>
+            </table>
+        </div>
+        <div class="footer">e</div>
+        </div>
     </div>
-    <div id="right">
-        <form>
-           <h3>aaa</h3>
-           <ul>
-               <li><a href="">sss</a></li>
-               <li><a href="">sss</a></li>
-               <li><a href="">aaa</a></li>
-           </ul>
-        </form>
-    </div>
-    <div id="footer">e</div>
-  
 </body>
 </html>

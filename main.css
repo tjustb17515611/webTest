@@ -1,0 +1,22 @@
+.top{
+    background-color: deepskyblue;
+}
+.left{
+    background-color:lightblue;
+    width: 20%;
+    float: left;
+}
+.main{
+    background-color:#ffffff;
+    width: 60%;
+    float: left;
+}
+.right{
+    background-color:lightblue;
+    width:20%;
+    float: left;
+}
+.footer{
+    background-color:deepskyblue;
+    clear: both;
+}
