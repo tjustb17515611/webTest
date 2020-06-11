@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登陆界面</title>
+    <style>
+        header{
+            height: 90px;
+        }
+        .t1{
+            width: 100%;
+        }
+        .bt{
+            float: right;
+            padding-top: 30px;
+        }
+        .fr{
+            padding-top: 150px;
+        }
+        .login{
+            background-color: deepskyblue;
+            height: 600px;
+        }
+        a.btn{
+            background:lightblue;
+            font-size: 16px;
+            padding: 10px 15px;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            text-shadow: 0 -1px 1px rgba(0,0,0,0.3);
+            -moz-border-radius:5px;
+            -webkit-border-radius:5px;
+            border-radius:5px;
+        }
+    </style>
+    <script>
+        function checkLogin(){
+            var name = document.getElementById("loginname").value;
+            var pass = document.getElementById("loginpass").value;
+            if(name == ""){
+                alert("用户名不能为空！");
+            }
+            if(pass == ""){
+                alert("密码不能为空！");
+            }
+            if(name == "aaa" && pass == "123456"){
+                window.location.href="main2.html";
+                //setTimeout("checkLogin,3000");
+                alert("登录成功！");
+            } else {
+                alert("账号或密码不正确！");
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <table class="t1">
+            <tr>
+                <td><img src="/img/logo.png" width="20%" height="80px"></td>
+                <td class="bt" height="50px"><a href="main1.html" class="btn">返回主页</a></td>
+            </tr>
+        </table>
+    </header>
+    <div class="login">
+        <center>
+            <form class="fr">
+                <table>
+                    <tr><h1>登录</h1></tr>
+                    <tr>
+                        <td align="right">用户名:</td>
+                        <td><input type="text" name="username" id="loginname"> </td>
+                    </tr>
+                    <tr>
+                        <td align="right">密码：</td>
+                        <td><input type="password" name="password" id="loginpass"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="button" name="button" value="登陆" onclick="checkLogin()"></td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+    </div>
+</body>
+</html>

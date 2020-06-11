@@ -48,6 +48,19 @@ td p a{
     font-weight: 500;
     color: black;
 }
+a.btn{
+    background:lightblue;
+    font-size: 16px;
+    padding: 10px 15px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.3);
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
 .top{
     background: url(/img/tx.jpg );
     background-position: center;
@@ -56,7 +69,7 @@ td p a{
 }
 .t2{
     width: 100%;
-    display: inline-flex;
+   
 }
 .n1{
     background-color:lightblue;
@@ -69,6 +82,7 @@ td p a{
     width: 35%;
     height:300px;
     float: left;
+    display: inline-flex;
 }
 .n3{
     background-color: gold;
