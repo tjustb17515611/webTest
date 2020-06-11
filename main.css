@@ -1,10 +1,6 @@
 header{
     height: 100px;
 }
-.top{
-    background: url(/img/tx.jpg );
-    height: 500px;
-}
 .t1{
     width: 100%;
     float: left;
@@ -53,6 +49,10 @@ td p a{
     font-size: 20px;
     font-weight: 500;
     color: black;
+}
+.top{
+    background: url(/img/tx.jpg );
+    height: 500px;
 }
 .t2{
     width: 100%;
