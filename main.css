@@ -1,15 +1,20 @@
+header{
+    height: 100px;
+}
 .top{
     background: url(/img/tx.jpg );
     height: 500px;
 }
 .t1{
     width: 100%;
+    float: left;
 }
+
 nav{
     clear: both;
     width: 780px;
     height: 40px;
-    padding: 0 10px;
+    padding: 0 300px;
 }
 nav ul{
     padding: 0;
@@ -17,14 +22,13 @@ nav ul{
     list-style: none;
 }
 nav ul li{
-    float: right;
+    float: left;
     display: block;
     width: 118px;
     padding-right: 2px;
     height: 40px;
     padding: 0;
     margin: 0;
-    background: url(/img/btn.png) no-repeat  right center; 
 }
 nav .last{
     background: none;
@@ -34,12 +38,21 @@ nav ul li a{
     width: 118px;
     height: 33px;
     padding-top: 7px;
-    font-size: 13px;
-    color: #333;
+    font-size: 22px;
+    color: black;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 1000;
     text-align:center;
     outline: none;
+}
+td p{
+    float: left;
+    padding: 10px;
+}
+td p a{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
 }
 .t2{
     width: 100%;
