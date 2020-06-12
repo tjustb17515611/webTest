@@ -41,26 +41,36 @@
             var name = document.getElementById("loginname").value;
             var pass = document.getElementById("loginpass").value;
             var repass = document.getElementById("reloginpass").value;
+            var phone = document.getElementById("tel").value;
+            var email = document.getElementById("email").value;
             if(name == ""){
                 alert("用户名不能为空！");
             }
             if(pass == ""){
                 alert("密码不能为空！");
-            /*}
-            if(name.value.length <3){
+            }
+            if(repass == ""){
+                alert("请再次输入密码");
+            }if(phone == ""){
+                alert("电话不能为空！");
+            }
+            if(email == ""){
+                alert("email不能为空！");
+            }
+            if(name.length <3){
                 alert("用户名不能小于3位");
             }
-            if(name.value.length >15){
+            if(name.length >15){
                 alert("用户名不能大于15位");
             }
-            if(pass.value.length<5 && pass.value.length>8){
+            if(pass.length <5 && pass.length >8){
                 alert("请规范填写密码");
             }
             if(name == "aaa"){
                 alert("用户名已存在!");
             }
             if(pass != repass){
-                alert("两次密码不一致！");*/
+                alert("两次密码不一致！");
             }else{
                 alert("注册成功");
                 window.location.href="login.html";
@@ -81,7 +91,7 @@
         <center>
             <form class="fr">
                 <table>
-                    <tr><h1>登录</h1></tr>
+                    <tr><h1>注册</h1></tr>
                     <tr>
                         <th  align="right">用户名：</th>
                         <td>
@@ -112,13 +122,13 @@
                     <tr>
                         <th  align="right">手机号码：</th>
                         <td>
-                            <input name="myphone" type="tel" pattern="^1[3|4|5|8][0-9]\d{4,8}$"/>
+                            <input name="myphone" type="tel" id="tel" pattern="^1[3|4|5|8][0-9]\d{4,8}$"/>
                         </td>
                     </tr>
                     <tr>
                         <th  align="right">E-mail地址：</th>
                         <td>
-                            <input name="myemail" type="email" multiple />
+                            <input name="myemail" type="email" id="email" multiple />
                         </td>
                     </tr>
                     <tr>

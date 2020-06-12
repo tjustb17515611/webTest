@@ -54,6 +54,9 @@
                 alert("账号或密码不正确！");
             }
         }
+        function goRegin(){
+            window.location.href="reg.html";
+        }
     </script>
 </head>
 <body>
@@ -80,7 +83,10 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td><input type="button" name="button" value="登陆" onclick="checkLogin()"></td>
+                        <td>
+                            <input type="button" name="button" value="登陆" onclick="checkLogin()">
+                            <input type="button" name="button" value="注册" onclick="goRegin()">
+                        </td>
                     </tr>
                 </table>
             </form>
