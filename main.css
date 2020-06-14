@@ -41,8 +41,17 @@ nav ul li a{
 nav ul li a:hover{
     font-size: 25px;
     color: deeppink;
+    text-decoration: underline;
 }
 
+.login:hover{
+    font-size: large;
+    color: deeppink;
+}
+.reg:hover{
+    font-size: large;
+    color: deeppink;
+}
 a.btn{
     background:lightblue;
     font-size: 16px;
@@ -100,7 +109,12 @@ a.btn{
 }
 .t3{
     width: 100%;
-
+}
+.tr td a{
+    text-decoration: none;
+}
+.tr td h2:hover{
+    font-size: large;
 }
 .footer{
     background-color:deepskyblue;
