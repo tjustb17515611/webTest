@@ -10,7 +10,7 @@
     width: 20%;
 }
 nav{
-    padding-left: 10%;
+    padding-left: 20%;
     clear: both;
     width: 100%;
     height: 40px;
@@ -35,19 +35,14 @@ nav ul li a{
     color: black;
     text-decoration: none;
     font-weight: 1000;
-    text-align:center;
+    text-align:right;
     outline: none;
 }
-td p{
-    display: flex;
-    float: left;
-    padding: 10px;
+nav ul li a:hover{
+    font-size: 25px;
+    color: deeppink;
 }
-td p a{
-    font-size: 15px;
-    font-weight: 500;
-    color: black;
-}
+
 a.btn{
     background:lightblue;
     font-size: 16px;
@@ -66,34 +61,31 @@ a.btn{
     background-position: center;
     background-repeat: no-repeat;
     height: 500px;
+    background-color: crimson;
+
 }
 .t2{
     width: 100%;
    
 }
 .n1{
-    background-color:lightblue;
-    width: 15%;
-    height: 300px;
-    float: left;
-}
-.n2{
-    background-color:#ffffff;
-    width: 35%;
-    height:300px;
-    float: left;
-    display: inline-flex;
-}
-.n3{
-    background-color: gold;
+    background-color: cornflowerblue;
     width: 25%;
     height: 300px;
     float: left;
+    padding-top: 50px;
+}
+.n2{
+    background-color:gold;
+    width: 50%;
+    height:500px;
+    float: left;
+    
 }
 .n4{
-    background-color:lightblue;
+    background-color: cornflowerblue;
     width:25%;
-    height: 300px;
+    height: 500px;
     float: left;
 }
 .middle{
