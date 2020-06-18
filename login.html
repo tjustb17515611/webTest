@@ -22,6 +22,13 @@
             background-color: deepskyblue;
             height: 600px;
         }
+        #button{
+            font-size: medium;
+        }
+        #button:hover{
+            font-size: larger;
+            color: deeppink;
+        }
         a.btn{
             background:lightblue;
             font-size: 16px;
@@ -47,6 +54,16 @@
         .t4 tr td{
             color: gray ;
         }
+        #bt{
+            font-size: medium;
+            font-weight: 2000;
+            color: royalblue;
+            background-color: skyblue;
+        }
+        #bt:hover{
+            font-size: larger;
+            color: deeppink;
+        }
     </style>
     <script>
         function checkLogin(){
@@ -68,6 +85,9 @@
         }
         function goRegin(){
             window.location.href="reg.html";
+        }
+        function checkLogout(){
+            window.location.href="main1.html";
         }
     </script>
 </head>
@@ -96,8 +116,10 @@
                     <tr>
                         <td></td>
                         <td>
-                            <input type="button" name="button" value="登陆" onclick="checkLogin()">
-                            <input type="button" name="button" value="注册" onclick="goRegin()">
+                            <input type="button" id="button" name="button" value=" √ " onclick="checkLogin()">
+                            <input type="button" id="button" name="button" value=" × " onclick="checkLogout()">
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            <input type="button" id="button" name="button" value="注册" onclick="goRegin()">
                         </td>
                     </tr>
                 </table>
@@ -109,15 +131,13 @@
             <form>
                 <table class="t4">
                     <tr>
-                        <td align="right">店铺地址：xxxxxxx</td>
-                        <td align="right">联系方式：xxxxxxx</td>
-
+                        <td align="center"><img src="/img/CXdGikDLIn.jpg" width="20px" height="20px">:河南省郑州市金水路未来路曼哈顿赛博数码广场一楼</td>
+                    </tr>
+                    <tr>
+                        <td align="center"><img src="/img/ph.jpg" style="width: 20px; height:20px ;">:0371-58566985/17737512366</td>
                     </tr>
                        
-                    <tr>
-                        <td align="right">qq:xxxxxxx</td>
-                        <td align="right">email:xxxxxxx</td>
-                    </tr>
+                    <button data-am-smooth-scroll id="bt" class="am-btn am-btn-success">&nbsp; ↑㊤↑ &nbsp;</button>
                
                 </table>
             </form>

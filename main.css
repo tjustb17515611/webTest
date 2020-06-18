@@ -13,7 +13,7 @@
     width: 20%;
 }
 nav{
-    padding-left: 20%;
+    padding-left: 13%;
     clear: both;
     width: 100%;
     height: 40px;
@@ -69,7 +69,7 @@ a.btn{
     border-radius:5px;
 }
 .top{
-    background-image: url(/img/a.jpg);
+    background-image: url(/img/main.jpg);
     background-size: 100% 600px;
     background-position: 100%,800px;
     background-color:#ffffff;
@@ -96,7 +96,7 @@ a.btn{
     
 }
 .n4{
-    background-color: #9dcaf1;
+    background-color: #5dacec;
     width:25%;
     height: 500px;
     float: left;
@@ -104,8 +104,47 @@ a.btn{
 .middle{
     background-color: #5dacec;
     clear: both;
-    height: 300px;
+    height: 350px;
    
+}
+.m1{
+    width: 25%;
+    height: 350px;
+    float: left;
+}
+.m2{
+    width: 75%;
+    height: 350px;
+    background-color: #87c0f1;
+    float: left;
+    font-size: larger;
+}
+
+header{
+    clear: both;
+    height: 50px;
+    padding: 20px;
+    background-color: #5db2f8 ;
+    vertical-align: middle;
+    color: #ffffff;
+}
+.mm1{
+    width:5%;
+    height: 270px;
+    float: left;
+    color: slateblue;
+}
+.mm2{
+    width: 90%;
+    height:270px;
+    float: left;
+    color:#87c0f1 ;
+}
+.mm3{
+    width:5%;
+    height: 270px;
+    float: left;
+    color: slateblue;
 }
 .leg{
     background-color: rgb(44, 139, 218);
@@ -117,6 +156,7 @@ a.btn{
 }
 .tr td a{
     text-decoration: none;
+    color: snow;
 }
 .tr td h2:hover{
     font-size: large;
@@ -132,4 +172,14 @@ a.btn{
 }
 .t4 tr td{
     color: gray ;
+}
+#bt{
+    font-size: medium;
+    font-weight: 2000;
+    color: royalblue;
+    background-color: skyblue;
+}
+#bt:hover{
+    font-size: larger;
+    color: deeppink;
 }
